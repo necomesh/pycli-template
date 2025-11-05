@@ -10,3 +10,6 @@ push:
 install: 
 	uv sync --all-groups
 	uv sync --all-extras
+
+update:
+	copier update 
