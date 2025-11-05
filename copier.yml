@@ -1,3 +1,7 @@
 project_name:
     type: str
     help: 项目名称
+
+module_name:
+    type: str
+    help: 模块名称

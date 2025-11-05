@@ -26,9 +26,9 @@ dev = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["{{project_name}}*"]
+include = ["{{module_name}}*"]
 
 [project.scripts]
-{{project_name}} = "{{project_name}}.cli.bootstrap:main"
+{{project_name}} = "{{module_name}}.cli.bootstrap:main"
 
 
